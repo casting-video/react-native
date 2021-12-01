@@ -20,8 +20,6 @@ require('../setupBabel')();
 
 var cliEntry = require('./cliEntry');
 
-if (require.main === module) {
-  cliEntry.run();
-}
+cliEntry.run();
 
 module.exports = cliEntry;
